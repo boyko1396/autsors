@@ -1,0 +1,134 @@
+.features-section {
+  $featuresSectionPBLg: 198rem;
+  background: $blackColor;
+  padding: 208rem 0 $featuresSectionPBLg;
+  color: $whiteColor;
+  &__container {
+  }
+  &__row {
+  }
+  &__col {
+    &-content {
+    }
+    &-social {
+    }
+    &-media {
+    }
+    &-constructor {
+    }
+  }
+  &__content {
+    margin: 0 0 84rem;
+  }
+  &__suptitle {
+    margin: 1.45em 9.4em 0 0;
+    display: inline-block;
+    vertical-align: top;
+  }
+  &__title {
+    display: inline;
+    color: $mediumGrayColor;
+    div {
+      display: inline-block;
+      position: relative;
+      z-index: 0;
+      > span {
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: -8rem;
+        left: 0;
+        overflow: hidden;
+        z-index: 1;
+      }
+    }
+  }
+  &__social {
+    max-width: 440rem;
+    margin: 0 0 68rem;
+    &-list {
+      margin: 0 -11rem 20rem;
+      padding: 0;
+      display: flex;
+      list-style-type: none;
+      li {
+        margin: 0 11rem;
+        padding: 0;
+        a {
+          width: 28rem;
+          height: 28rem;
+          display: block;
+          transition: $transition;
+          &:hover {
+            @media (min-width: $lg-mf) {
+              color: $accentColor;
+            }
+          }
+          .u-icon,
+          img {
+            width: 100%;
+            height: 100%;
+            display: block;
+          }
+        }
+      }
+    }
+    &-description {
+      color: $mediumGrayColor;
+    }
+  }
+  &__media {
+    margin: 0 0 -1 * $featuresSectionPBLg;
+    position: relative;
+    &-hand {
+      user-select: none;
+      pointer-events: none;
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+  }
+  &__app {
+    background: #fff;
+    width: 37.3134328358%;
+    height: 70.8661417323%;
+    border-radius: 30rem;
+    position: absolute;
+    top: 12.2047244094%;
+    left: 42.0895522388%;
+  }
+  &__constructor {
+    max-width: 370rem;
+    margin: 0 69rem 0 auto;
+    &-title {
+      margin: -2rem 0 26rem;
+    }
+    &-subtitle {
+      margin: 0 -10rem 128rem 0;
+      color: $mediumGrayColor;
+    }
+    &-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &:not(:last-child) {
+        margin-bottom: 32rem;
+      }
+      &-subtitle {
+        flex-shrink: 0;
+        font-size: var(--fs-10);
+        color: $mediumGrayColor;
+        text-transform: uppercase;
+        letter-spacing: -.01em;
+      }
+      &-control {
+        max-width: 200rem;
+        display: flex;
+        justify-content: space-between;
+        flex: 0 0 200rem;
+      }
+    }
+  }
+}

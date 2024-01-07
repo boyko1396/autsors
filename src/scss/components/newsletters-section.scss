@@ -1,0 +1,35 @@
+.newsletters-section {
+  background: $grayColor;
+  padding: 120rem 0 112rem;
+  &__container {
+  }
+  &__row {
+    &-content {
+      align-items: center;
+    }
+  }
+  &__col {
+    &-media {
+    }
+    &-content {
+      margin: 0 auto;
+    }
+  }
+  &__media {
+  }
+  &__picture {
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: $radiusMd;
+    }
+  }
+  &__content {
+  }
+  &__title {
+    margin: 0 0 48rem;
+  }
+  &__text {
+  }
+}

@@ -1,0 +1,39 @@
+.cases-section {
+  background: $grayColor;
+  padding: 164rem 0 111rem;
+  position: relative;
+  &__header-point {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -120rem;
+  }
+  &__container {
+  }
+  &__row {
+  }
+  &__col {
+    &-title {
+    }
+    &-content {
+      display: flex;
+      flex-direction: column;
+    }
+    &-slider {
+    }
+  }
+  &__title {
+    margin: 0 0 40rem;
+  }
+  &__footer {
+    margin-top: auto;
+  }
+  &__control {
+    display: flex;
+    align-items: center;
+    &-btn {
+    }
+    &-dots {
+    }
+  }
+}

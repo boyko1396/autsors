@@ -1,0 +1,66 @@
+.loyalty-section {
+  background: $grayColor;
+  padding: 204rem 0 128rem;
+  &__container {
+  }
+  &__row {
+    &-list {
+      margin-bottom: 40rem;
+      justify-content: flex-end;
+    }
+    &-tab {
+    }
+  }
+  &__col {
+    &-title {
+    }
+    &-subtitle {
+    }
+    &-list-item {
+      margin: 0 0 40rem;
+    }
+    &-tab-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    &-tab-media {
+    }
+  }
+  &__title {
+    margin: 0 0 40rem;
+  }
+  &__subtitle {
+    margin: 0 0 128rem;
+  }
+  &__tab {
+    &-nav {
+      $tabNavGap: 2rem;
+      $tabNavGap-: -2rem;
+      margin: 0 $tabNavGap- 35rem;
+      display: flex;
+      &-btn {
+        min-width: 122rem;
+        margin: 0 $tabNavGap;
+      }
+    }
+    &-content {
+      margin: 0 0 40rem;
+      &-item {
+        & + & {
+          display: none;
+        }
+      }
+    }
+    &-media {
+    }
+    &-picture {
+      @extend %img-cover;
+      padding: 0 0 64.8888888889%;
+      border-radius: $radiusMd;
+      & + & {
+        display: none;
+      }
+    }
+  }
+}

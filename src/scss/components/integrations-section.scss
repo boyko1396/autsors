@@ -1,0 +1,71 @@
+.integrations-section {
+  background: $greenDarkColor;
+  padding: 208rem 0 128rem;
+  color: $blackColor;
+  &__container {
+  }
+  &__row {
+    &-content {
+      margin-bottom: 130rem;
+    }
+    &-media {
+    }
+  }
+  &__col {
+    &-description {
+    }
+    &-title {
+    }
+    &-media {
+      margin: 0 0 0 $offsetCol;
+    }
+  }
+  &__text {
+  }
+  &__title {
+    margin: 0 0 58rem;
+    letter-spacing: -.035em;
+  }
+  &__description {
+    margin: 0 0 32rem;
+    font-size: var(--fs-9);
+    line-height: 1.14285714286;
+  }
+  &__list-method {
+    margin: -16rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    li {
+      margin: 16rem;
+      padding: 0;
+    }
+    img {
+      width: auto;
+      height: 36rem;
+      display: block;
+    }
+  }
+  &__media {
+    position: relative;
+  }
+  &__picture {
+    border-radius: $radiusMd;
+    overflow: hidden;
+    &--1 {
+    }
+    &--2 {
+      width: 234rem;
+      position: absolute;
+      right: -141rem;
+      bottom: 55rem;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+}

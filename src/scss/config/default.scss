@@ -1,0 +1,163 @@
+*,*:before,*:after{margin:0;padding:0;box-sizing: border-box}
+html{-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bold}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:0.1rem dotted buttontext}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+
+html {
+  font-size: $siteResolution;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: $lightGreenColor;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--fs-default);
+  line-height: $lineHeightDefault;
+  font-family: $fontFamily;
+  color: $fontColor;
+  letter-spacing: -.02em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  &.is-hidden {
+    overflow: hidden;
+    @media (min-width: $lg-mf) {
+      margin-right: 1.7rem;
+    }
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+input,
+button,
+select,
+textarea {
+  font-weight: normal;
+  font-family: $fontFamily;
+  line-height: $lineHeightMedium;
+  letter-spacing: -.02em;
+}
+
+input,
+button {
+  appearance: none;
+}
+
+picture,
+time,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.text-size-1,
+.text-size-2,
+.text-size-3,
+.text-size-4,
+.text-size-5,
+.text-size-6 {
+  margin-top: 0;
+  font-weight: normal;
+  font-family: $fontFamily;
+  line-height: $lineHeightTitle;
+}
+
+h1,
+.text-size-1 {
+  font-size: var(--fs-1);
+  line-height: .9;
+  letter-spacing: -.07em;
+}
+
+h2,
+.text-size-2 {
+  font-size: var(--fs-2);
+  line-height: 1;
+  letter-spacing: -.06em;
+}
+
+h3,
+.text-size-3 {
+  font-size: var(--fs-3);
+  line-height: 1.08;
+  letter-spacing: -.06em;
+}
+
+h4,
+.text-size-4 {
+  font-size: var(--fs-4);
+  line-height: 1.25;
+  letter-spacing: -.06em;
+}
+
+h5,
+.text-size-5 {
+  font-size: var(--fs-5);
+  line-height: 1.16666666667;
+  letter-spacing: -.03em;
+}
+
+h6,
+.text-size-6 {
+  font-size: var(--fs-6);
+  line-height: 1.4;
+  letter-spacing: -.03em;
+}
+
+p {
+  margin-top: 0;
+}
+
+svg,
+.u-icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  color: inherit;
+}
+
+.visually-hidden,
+.visually-hidden-focusable:not(:focus):not(:focus-within) {
+  width: 1px!important;
+  height: 1px!important;
+  margin: -1px!important;
+  padding: 0!important;
+  position: absolute!important;
+  border: 0!important;
+  clip: rect(0,0,0,0)!important;
+  white-space: nowrap!important;
+  overflow: hidden!important;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  overflow: clip;
+}
+
+.site {
+  &__main {
+    width: 100%;
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,46 @@
+.clients-section {
+  background: $lightGreenColor;
+  padding: 208rem 0 128rem;
+  &__container {
+  }
+  &__row {
+  }
+  &__col {
+    &-title {
+    }
+    &-text {
+    }
+  }
+  &__title {
+    margin: 0;
+    letter-spacing: -.07em;
+  }
+  &__text {
+    margin: 0;
+  }
+  &__list {
+    margin-top: 112rem;
+    display: flex;
+    border: 1px solid $lightGrayColor;
+    border-radius: $radiusMd;
+    &-col {
+      flex: 1;
+      &:not(:last-child) {
+        border-right: 1px solid $lightGrayColor;
+      }
+    }
+    &-item {
+      padding: 0 0 105%;
+      position: relative;
+      img {
+        width: 70%;
+        height: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        object-fit: contain;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+}

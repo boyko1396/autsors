@@ -1,0 +1,111 @@
+.cta-section {
+  background: $blackColor;
+  color: $grayColor;
+  &__container {
+    position: relative;
+  }
+  &__row {
+  }
+  &__col {
+    &-content {
+    }
+    &-media {
+      margin-left: auto;
+    }
+  }
+  &__content {
+    padding: 200rem 0 148rem;
+  }
+  &__title {
+    margin: 0 0 48rem;
+  }
+  &__form {
+    &-line {
+      margin: 0 0 16rem;
+    }
+    &-btn {
+      margin: 12rem 0 16rem;
+    }
+  }
+  &__copyright {
+    max-width: 260rem;
+    font-size: var(--fs-9);
+    line-height: 1.14285714286;
+    color: $mediumGrayColor;
+    letter-spacing: .001em;
+  }
+  &__contacts {
+    margin-top: 132rem;
+    padding-top: 22rem;
+    border-top: 1px solid rgba($lightGrayColor, .1);
+    &-title {
+      margin: 0 0 23rem;
+      font-size: var(--fs-9);
+      color: $mediumGrayColor;
+    }
+    &-list {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      &-item {
+        margin: 0;
+        padding: 0;
+        &:not(:last-child) {
+          margin-bottom: 16rem;
+        }
+      }
+    }
+  }
+  &__media {
+    height: 100%;
+    margin: 0 var(--gap-fluid-) 0 0;
+    position: relative;
+  }
+  &__picture {
+    @extend %img-cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    user-select: none;
+    pointer-events: none;
+    img {
+      object-position: left center;
+    }
+  }
+  &__footer {
+    color: $mediumGrayColor;
+    position: absolute;
+    right: var(--gap-fluid);
+    bottom: 38rem;
+    left: var(--gap-fluid);
+    &-list {
+      font-size: var(--fs-9);
+      letter-spacing: 0;
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+      }
+      li {
+        margin: 0;
+        padding: 0;
+        &:not(:last-child) {
+          margin-right: 40rem;
+        }
+      }
+      a {
+        @extend %area-click;
+        transition: $transition;
+        &:hover {
+          text-decoration: none;
+          @media (min-width: $lg-mf) {
+            color: $accentColor;
+          }
+        }
+      }
+    }
+  }
+}

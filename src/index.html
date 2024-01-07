@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="ru">
+  @@include('html/head.html', {
+    'title': 'Аутсорс'
+  })
+  <body>
+    <div id="root" class="site">
+      <!-- header BEGIN -->
+      @@include('html/header.html', {
+        'el': 'js-header-sticky'
+      })
+      <!-- header END -->
+      <main role="main" class="site__main">
+        <!-- hero-section BEGIN -->
+        <section id="hero-section" class="hero-section">
+          <div class="js-header-sticky-point-1 hero-section__header-point"></div>
+          <div class="container hero-section__container">
+            <div class="row hero-section__row">
+              <div class="row__col--12 hero-section__col-brand">
+                <picture class="d-lg-none hero-section__brand">
+                  <img src="images/brand-logo-type-2.svg" alt="Аутсорс">
+                </picture>
+              </div>
+              <div class="row__col--5 hero-section__col-title">
+                <h1 class="visually-hidden hero-section__title"><span>Аутсорс</span></h1>
+                <h2 class="text-size-4 hero-section__subtitle">Автоматизируем и увеличиваем прибыль вашего бизнеса <span class="color-accent">по подписке</span></h2>
+              </div>
+              <div class="row__col--4 hero-section__col-text">
+                <div class="content hero-section__text">
+                  <p>Легко и быстро запустите приложение и сайт, настройте лояльность и организуйте доставку, минуя агрегаторов. Соберите клиентскую базу и начните ей управлять</p>
+                </div>
+              </div>
+              <div class="row__col--12 hero-section__col-btn">
+                <button type="button" class="js-link-anchor btn btn--hover-circle btn--theme-gray-outline btn--size-md hero-section__btn">
+                  <span class="btn__inner">
+                    <span class="btn__title">Начать</span>
+                    <span class="btn__icon-circle">
+                      <svg class="u-icon btn__icon">
+                        <use xlink:href="images/icons/icons.svg#arrow-type-1"></use>
+                      </svg>
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+            <div class="js-parallax-hero-picture row hero-section__row">
+              <div class="row__col--12 hero-section__col-picture">
+                <div class="hero-section__media">
+                  <picture class="hero-section__picture">
+                    <source type="image/webp"
+                            srcset="images/hero-img-1-mobile.webp, images/hero-img-1-mobile@2x.webp 2x"
+                            media="(max-width: 767px)">
+                    <source type="image/webp"
+                            srcset="images/hero-img-1-desktop.webp, images/hero-img-1-desktop@2x.webp 2x"
+                            media="(min-width: 768px)">
+                    <source srcset="images/hero-img-1-mobile.png, images/hero-img-1-mobile@2x.png 2x"
+                            media="(max-width: 767px)">
+                    <source srcset="images/hero-img-1-desktop.png, images/hero-img-1-desktop@2x.png 2x"
+                            media="(min-width: 768px)">
+                    <img src="images/hero-img-1-desktop.png"
+                         srcset="images/hero-img-1-desktop@2x.png 2x"
+                         alt="Аутсорс - автоматизируем и увеличиваем прибыль вашего бизнеса"
+                         sizes="(max-width: 767px) 100vw, (min-width: 768px) 50vw">
+                  </picture>
+                  <picture class="js-hero-img hero-section__picture">
+                    <source type="image/webp"
+                            srcset="images/hero-img-2-mobile.webp, images/hero-img-2-mobile@2x.webp 2x"
+                            media="(max-width: 767px)">
+                    <source type="image/webp"
+                            srcset="images/hero-img-2-desktop.webp, images/hero-img-2-desktop@2x.webp 2x"
+                            media="(min-width: 768px)">
+                    <source srcset="images/hero-img-2-mobile.png, images/hero-img-2-mobile@2x.png 2x"
+                            media="(max-width: 767px)">
+                    <source srcset="images/hero-img-2-desktop.png, images/hero-img-2-desktop@2x.png 2x"
+                            media="(min-width: 768px)">
+                    <img src="images/hero-img-2-desktop.png"
+                         srcset="images/hero-img-2-desktop@2x.png 2x"
+                         alt="Аутсорс - автоматизируем и увеличиваем прибыль вашего бизнеса"
+                         sizes="(max-width: 767px) 100vw, (min-width: 768px) 50vw">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- hero-section END -->
+        <!-- cases-section BEGIN -->
+        <section class="cases-section">
+          <div class="js-header-sticky-point-2 cases-section__header-point"></div>
+          <div class="container cases-section__container">
+            <div class="row cases-section__row">
+              <div class="d-lg-block row__col--12 cases-section__col-title">
+                <h2 class="text-size-4 cases-section__title">Помогаем цифровизировать ниши</h2>
+              </div>
+              <div class="row__col--3 cases-section__col-content">
+                <h2 class="d-lg-none text-size-4 cases-section__title">Помогаем цифровизировать ниши</h2>
+                <footer class="cases-section__footer">
+                  <div class="slider-control cases-section__control">
+                    <div class="slider-control__nav">
+                      <button type="button" class="slider-control__btn"></button>
+                      <button type="button" class="slider-control__btn"></button>
+                    </div>
+                    <div class="slider-control__dots"></div>
+                  </div>
+                </footer>
+              </div>
+              <div class="row__col--9 cases-section__col-slider">
+                <div class="js-cases-slider-init cases-slider">
+                  <div class="cases-slider__slide">
+                    <article class="cases-slider__card">
+                      <picture class="cases-slider__card-picture">
+                        <source type="image/webp"
+                                srcset="images/cases-slider-card-1.webp, images/cases-slider-card-1@2x.webp 2x">
+                        <source srcset="images/cases-slider-card-1.jpg, images/cases-slider-card-1@2x.jpg 2x">
+                        <img src="images/cases-slider-card-1.jpg"
+                             srcset="images/cases-slider-card-1@2x.jpg 2x"
+                             alt="Маркеты">
+                      </picture>
+                      <div class="cases-slider__card-inner">
+                        <div class="cases-slider__card-content">
+                          <h3 class="text-size-6 cases-slider__card-title">Маркеты</h3>
+                          <div class="content cases-slider__card-text">
+                            <p>Алкомаркеты · Дарк-сторы · Супермаркеты</p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="cases-slider__slide">
+                    <article class="cases-slider__card">
+                      <picture class="cases-slider__card-picture">
+                        <source type="image/webp"
+                                srcset="images/cases-slider-card-2.webp, images/cases-slider-card-2@2x.webp 2x">
+                        <source srcset="images/cases-slider-card-2.jpg, images/cases-slider-card-2@2x.jpg 2x">
+                        <img src="images/cases-slider-card-2.jpg"
+                             srcset="images/cases-slider-card-2@2x.jpg 2x"
+                             alt="Здоровье">
+                      </picture>
+                      <div class="cases-slider__card-inner">
+                        <div class="cases-slider__card-content">
+                          <h3 class="text-size-6 cases-slider__card-title">Здоровье</h3>
+                          <div class="content cases-slider__card-text">
+                            <p>Аптеки · Оптики</p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="cases-slider__slide">
+                    <article class="cases-slider__card">
+                      <picture class="cases-slider__card-picture">
+                        <source type="image/webp"
+                                srcset="images/cases-slider-card-3.webp, images/cases-slider-card-3@2x.webp 2x">
+                        <source srcset="images/cases-slider-card-3.jpg, images/cases-slider-card-3@2x.jpg 2x">
+                        <img src="images/cases-slider-card-3.jpg"
+                             srcset="images/cases-slider-card-3@2x.jpg 2x"
+                             alt="Кафе">
+                      </picture>
+                      <div class="cases-slider__card-inner">
+                        <div class="cases-slider__card-content">
+                          <h3 class="text-size-6 cases-slider__card-title">Кафе</h3>
+                          <div class="content cases-slider__card-text">
+                            <p>Кондитерские, Булочные и&nbsp;пекарни, Кофейни, Фаст-фуд, Столовые</p>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- cases-section END -->
+        <div id="features-section" class="js-section">
+          <!-- features-section BEGIN -->
+          <section class="features-section">
+            <div class="container features-section__container">
+              <div class="row features-section__row">
+                <div class="row__col--12 features-section__col-content">
+                  <div class="features-section__content">
+                    <p class="features-section__suptitle">Приложение</p>
+                    <h2 class="text-size-1 features-section__title">
+                      <span class="features-section__title-line">
+                        <div>Создавайте<span class="color-white">Создавайте</span></div>
+                        <div>собственное<span class="color-white">собственное</span></div>
+                        <div>приложение,<span class="color-white">приложение,</span></div>
+                        <div>полностью<span class="color-white">полностью</span></div>
+                        <div>заточенное<span class="color-white">заточенное</span></div>
+                        <div>под<span class="color-white">под</span></div>
+                        <div>нужды<span class="color-white">нужды</span></div>
+                        <div>конкретно<span class="color-white">конкретно</span></div>
+                        <div>вашего<span class="color-accent">вашего</span></div>
+                        <div>бизнеса.<span class="color-accent">бизнеса.</span></div>
+                      </span>
+                      <br>
+                      <div>Используйте<span class="color-gray">Используйте</span></div>
+                      <div>технические<span class="color-gray">технические</span></div>
+                      <div>возможности,<span class="color-gray">возможности,</span></div>
+                      <div>которые<span class="color-gray">которые</span></div>
+                      <div>интересны<span class="color-gray">интересны</span></div>
+                      <div>именно<span class="color-gray">именно</span></div>
+                      <div>вам<span class="color-gray">вам</span></div>
+                    </h2>
+                  </div>
+                </div>
+                <div class="row__col--12 features-section__col-social">
+                  <div class="features-section__social">
+                    <ul class="features-section__social-list">
+                      <li>
+                        <a href="#">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#playmarket"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#applestore"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#huaweistore"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg class="u-icon">
+                            <use xlink:href="images/icons/icons.svg#rustore"></use>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="content features-section__social-description">
+                      <p>Создавайте своё приложение и публикуйте его в&nbsp;AppStore, Google Play, App Gallery и RuStore от своего имени</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row__col--6 features-section__col-media">
+                  <div class="features-section__media">
+                    <picture class="features-section__media-hand">
+                      <source type="image/webp"
+                              srcset="images/features-app-hand.webp, images/features-app-hand@2x.webp 2x">
+                      <source srcset="images/features-app-hand.png, images/features-app-hand@2x.png 2x">
+                      <img src="images/features-app-hand.png"
+                           srcset="images/features-app-hand@2x.png 2x"
+                           alt="Создавайте собственное приложение, полностью заточенное под нужды конкретно вашего бизнеса">
+                    </picture>
+                    <div class="features-section__app"></div>
+                  </div>
+                </div>
+                <div class="row__col--6 features-section__col-constructor">
+                  <div class="features-section__constructor">
+                    <p class="text-size-6 features-section__constructor-title">Используй настройки</p>
+                    <div class="content features-section__constructor-subtitle">
+                      <p><span class="color-accent">Внимание!</span> Конструктор не передаёт всю полноту возможностей реального продукта</p>
+                    </div>
+                    <div class="features-section__constructor-line">
+                      <div class="features-section__constructor-line-subtitle">Тема оформления</div>
+                      <div class="group-ui features-section__constructor-line-control">
+                        <div class="group-ui__inner">
+                          <div class="group-ui__item">
+                            <button type="button" class="js-link-constructor-theme-light btn btn--theme-gray-fill btn--size-sm btn--width-100">
+                              <span class="btn__inner">
+                                <span class="btn__title">Светлая</span>
+                              </span>
+                            </button>
+                          </div>
+                          <div class="group-ui__item">
+                            <button type="button" class="js-link-constructor-theme-dark btn btn--theme-gray-outline-transparent btn--size-sm btn--width-100">
+                              <span class="btn__inner">
+                                <span class="btn__title">Темная</span>
+                              </span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="features-section__constructor-line">
+                      <div class="features-section__constructor-line-subtitle">Шрифт</div>
+                      <div class="features-section__constructor-line-control">
+                        <select class="u-select">
+                          <option value="Intro">Intro</option>
+                          <option value="Roboto">Roboto</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="features-section__constructor-line">
+                      <div class="features-section__constructor-line-subtitle">Карточка товара</div>
+                      <div class="group-ui features-section__constructor-line-control">
+                        <div class="group-ui__inner">
+                          <div class="group-ui__item">
+                            <button type="button" class="js-link-constructor-view-grid btn btn--theme-gray-fill btn--size-sm btn--width-100">
+                              <span class="btn__inner">
+                                <span class="btn__icon-wrap">
+                                  <svg class="u-icon btn__icon">
+                                    <use xlink:href="images/icons/icons.svg#view-grid"></use>
+                                  </svg>
+                                </span>
+                              </span>
+                            </button>
+                          </div>
+                          <div class="group-ui__item">
+                            <button type="button" class="js-link-constructor-view-list btn btn--theme-gray-outline-transparent btn--size-sm btn--width-100">
+                              <span class="btn__inner">
+                                <span class="btn__icon-wrap">
+                                  <svg class="u-icon btn__icon">
+                                    <use xlink:href="images/icons/icons.svg#view-list"></use>
+                                  </svg>
+                                </span>
+                              </span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="features-section__constructor-line">
+                      <div class="features-section__constructor-line-subtitle">Цвет</div>
+                      <div class="features-section__constructor-line-control">
+                        <label class="js-link-constructor-color u-label-color is-active">
+                          <input type="radio" name="constructorColor" class="u-label-color__control" value="white" checked>
+                          <span class="u-label-color__icon" style="background: #fff;"></span>
+                        </label>
+                        <label class="js-link-constructor-color u-label-color">
+                          <input type="radio" name="constructorColor" class="u-label-color__control" value="gray">
+                          <span class="u-label-color__icon" style="background: #D0CDC0;"></span>
+                        </label>
+                        <label class="js-link-constructor-color u-label-color">
+                          <input type="radio" name="constructorColor" class="u-label-color__control" value="yellow">
+                          <span class="u-label-color__icon" style="background: #FF9800;"></span>
+                        </label>
+                        <label class="js-link-constructor-color u-label-color">
+                          <input type="radio" name="constructorColor" class="u-label-color__control" value="blue">
+                          <span class="u-label-color__icon" style="background: #0691F2;"></span>
+                        </label>
+                        <label class="js-link-constructor-color u-label-color">
+                          <input type="radio" name="constructorColor" class="u-label-color__control" value="periwinkle">
+                          <span class="u-label-color__icon" style="background: #A7A1F1;"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="features-section__constructor-line">
+                      <div class="features-section__constructor-line-subtitle">Скругление</div>
+                      <div class="features-section__constructor-line-control">
+                        <div id="slider"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- features-section END -->
+          <!-- info-section BEGIN -->
+          <section class="info-section">
+            <div class="container info-section__container">
+              <div class="row info-section__row">
+                <div class="row__col--4 info-section__col-suptitle">
+                  <p class="info-section__suptitle">Сконструируйте<br>собственный сайт</p>
+                </div>
+                <div class="row__col--7 info-section__col-title">
+                  <h2 class="text-size-3 info-section__title">Запустите сайт для вашей компании. Будьте доступными <span class="color-gray">всегда и с любых устройств</span></h2>
+                </div>
+                <div class="row__col--8 info-section__col-site">
+                  <div class="info-section__media info-section__media--1">
+                    <picture class="js-parallax-img info-section__picture info-section__picture--1">
+                      <source type="image/webp"
+                              srcset="images/info-img-1-desktop.webp, images/info-img-1-desktop@2x.webp 2x">
+                      <source srcset="images/info-img-1-desktop.png, images/info-img-1-desktop@2x.png 2x">
+                      <img src="images/info-img-1-desktop.png"
+                           srcset="images/info-img-1-desktop@2x.png 2x"
+                           alt="Сконструируйте собственный сайт">
+                    </picture>
+                  </div>
+                  <ol class="info-section__list">
+                    <li>Включите все необходимые разделы</li>
+                    <li>Окрасьте в цвета вашего бренда</li>
+                    <li>Наполните товарами, акциями и новостями</li>
+                    <li>Интегрируйтесь c платёжными системами</li>
+                    <li>Станьте заметными через SEO с готовой микроразметкой</li>
+                  </ol>
+                </div>
+                <div class="row__col--4 info-section__col-app">
+                  <div class="info-section__media info-section__media--2">
+                    <picture class="js-parallax-img info-section__picture info-section__picture--2">
+                      <source type="image/webp"
+                              srcset="images/info-img-2-desktop.webp, images/info-img-2-desktop@2x.webp 2x">
+                      <source srcset="images/info-img-2-desktop.png, images/info-img-2-desktop@2x.png 2x">
+                      <img src="images/info-img-2-desktop.png"
+                           srcset="images/info-img-2-desktop@2x.png 2x"
+                           alt="Запустите сайт для вашей компании. Будьте доступными всегда и с любых устройств">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- info-section END -->
+        </div>
+        <!-- loyalty-section BEGIN -->
+        <section id="loyalty-section" class="js-section loyalty-section">
+          <div class="container loyalty-section__container">
+            <div class="row">
+              <div class="row__col--9 loyalty-section__col-title">
+                <h2 class="text-size-1 loyalty-section__title">Настройте прогрессивную <span class="color-gray">систему лояльности</span></h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="row__col--4 loyalty-section__col-subtitle">
+                <p class="loyalty-section__subtitle">Стимулируйте клиента на повторные покупки и&nbsp;геймефицируйте вовлечённость. Выйдите далеко за&nbsp;пределы возможностей Wallet-карты</p>
+              </div>
+            </div>
+            <div class="row loyalty-section__row-list">
+              <div class="row__col--4 loyalty-section__col-list-item">
+                <article class="info-card">
+                  <div class="info-card__inner">
+                    <header class="info-card__header">
+                      <div class="info-card__media">
+                        <picture class="info-card__picture">
+                          <img src="images/info-card-img-1.svg" alt="Уровневая система">
+                        </picture>
+                      </div>
+                      <h3 class="text-size-6 info-card__title">Уровневая система</h3>
+                    </header>
+                    <div class="info-card__content">
+                      <div class="content info-card__text">
+                        <p>Стимулируйте клиентов больше и чаще тратить для расширения привилегий</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="row__col--4 loyalty-section__col-list-item">
+                <article class="info-card">
+                  <div class="info-card__inner">
+                    <header class="info-card__header">
+                      <div class="info-card__media">
+                        <picture class="info-card__picture">
+                          <img src="images/info-card-img-2.svg" alt="Механики">
+                        </picture>
+                      </div>
+                      <h3 class="text-size-6 info-card__title">Механики</h3>
+                    </header>
+                    <div class="info-card__content">
+                      <div class="content info-card__text">
+                        <p>Вознаграждения за целевые действия, NPS оценки, реферальные механики, начисления бонусов по чеку и&nbsp;другое</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="row loyalty-section__row-tab">
+              <div class="row__col--4 loyalty-section__col-tab-content">
+                <nav class="loyalty-section__tab-nav">
+                  <button type="button" class="btn btn--theme-accent btn--size-xs loyalty-section__tab-nav-btn">
+                    <span class="btn__inner">
+                      <span class="btn__title">Бонусная</span>
+                    </span>
+                  </button>
+                  <button type="button" class="btn btn--theme-graydark-fill btn--size-xs loyalty-section__tab-nav-btn">
+                    <span class="btn__inner">
+                      <span class="btn__title">Подарочная</span>
+                    </span>
+                  </button>
+                </nav>
+                <div class="loyalty-section__tab-content">
+                  <div class="content loyalty-section__tab-content-item">
+                    <p>Бонусная программа лояльности отлично подойдёт при&nbsp;переходе от скидочной системы к более развитому механизму управления спросом</p>
+                    <p>Оптимизируйте затраты на списания бонусов и увеличьте доход от лояльности</p>
+                  </div>
+                  <div class="content loyalty-section__tab-content-item">
+                    <p>Рекомендуем выбрать подарочную программу лояльности, если вы хотите взаимодействовать с&nbsp;клиентом на особом уровне</p>
+                    <p>Такая механика позволит направлять спрос на более выгодные бизнесу товары</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row__col--8 loyalty-section__col-tab-media">
+                <div class="loyalty-section__tab-media">
+                  <picture class="loyalty-section__tab-picture">
+                    <source type="image/webp"
+                            srcset="images/loyalty-img-1-mobile.webp, images/loyalty-img-1-mobile@2x.webp 2x"
+                            media="(max-width: 767px)">
+                    <source type="image/webp"
+                            srcset="images/loyalty-img-1-desktop.webp, images/loyalty-img-1-desktop@2x.webp 2x"
+                            media="(min-width: 768px)">
+                    <source srcset="images/loyalty-img-1-mobile.jpg, images/loyalty-img-1-mobile@2x.jpg 2x"
+                            media="(max-width: 767px)">
+                    <source srcset="images/loyalty-img-1-desktop.jpg, images/loyalty-img-1-desktop@2x.jpg 2x"
+                            media="(min-width: 768px)">
+                    <img src="images/loyalty-img-1-desktop.jpg"
+                         srcset="images/loyalty-img-1-desktop@2x.jpg 2x"
+                         alt="Настройте прогрессивную систему лояльности"
+                         sizes="(max-width: 767px) 100vw, (min-width: 768px) 50vw">
+                  </picture>
+                  <picture class="loyalty-section__tab-picture">
+                    <source type="image/webp"
+                            srcset="images/loyalty-img-2-mobile.webp, images/loyalty-img-2-mobile@2x.webp 2x"
+                            media="(max-width: 767px)">
+                    <source type="image/webp"
+                            srcset="images/loyalty-img-2-desktop.webp, images/loyalty-img-2-desktop@2x.webp 2x"
+                            media="(min-width: 768px)">
+                    <source srcset="images/loyalty-img-2-mobile.jpg, images/loyalty-img-2-mobile@2x.jpg 2x"
+                            media="(max-width: 767px)">
+                    <source srcset="images/loyalty-img-2-desktop.jpg, images/loyalty-img-2-desktop@2x.jpg 2x"
+                            media="(min-width: 768px)">
+                    <img src="images/loyalty-img-2-desktop.jpg"
+                         srcset="images/loyalty-img-2-desktop@2x.jpg 2x"
+                         alt="Настройте прогрессивную систему лояльности"
+                         sizes="(max-width: 767px) 100vw, (min-width: 768px) 50vw">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- loyalty-section END -->
+        <!-- promo-section BEGIN -->
+        <section id="promo-section" class="js-section promo-section">
+          <picture class="promo-section__bg">
+            <source type="image/webp"
+                    srcset="images/promo-section-bg.webp">
+            <source srcset="images/promo-section-bg.jpg">
+            <img src="images/promo-section-bg.jpg"
+                 alt="Управление акциями">
+          </picture>
+          <div class="container promo-section__container">
+            <div class="row promo-section__row-content">
+              <div class="row__col--8 promo-section__col-title">
+                <h2 class="text-size-3 promo-section__title">Управление акциями</h2>
+              </div>
+              <div class="row__col--4 promo-section__col-content">
+                <div class="content promo-section__content">
+                  <p>Настраивайте гибкие акции по клиентам, точкам, времени действия, суммам или числу товаров в чеке онлайн или оффлайн</p>
+                </div>
+              </div>
+            </div>
+            <div class="row promo-section__row-list">
+              <div class="row__col promo-section__col-1">
+                <picture class="promo-section__picture promo-section__picture--1">
+                  <source type="image/webp"
+                          srcset="images/promo-img-1.webp, images/promo-img-1@2x.webp 2x">
+                  <source srcset="images/promo-img-1.png, images/promo-img-1@2x.png 2x">
+                  <img src="images/promo-img-1.png"
+                       srcset="images/promo-img-1@2x.png 2x"
+                       alt="Управление акциями - Зона действия">
+                </picture>
+              </div>
+              <div class="row__col promo-section__col-2">
+                <div class="promo-section__progress">
+                  <div class="promo-section__progress-bg"></div>
+                  <p class="promo-section__progress-suptitle">Время действия<br>(дни)</p>
+                  <p class="promo-section__progress-current">34/80</p>
+                </div>
+              </div>
+              <div class="row__col promo-section__col-3">
+                <picture class="promo-section__picture promo-section__picture--2">
+                  <source type="image/webp"
+                          srcset="images/promo-img-2.webp, images/promo-img-2@2x.webp 2x">
+                  <source srcset="images/promo-img-2.png, images/promo-img-2@2x.png 2x">
+                  <img src="images/promo-img-2.png"
+                       srcset="images/promo-img-2@2x.png 2x"
+                       alt="Управление акциями - Тип акции">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- promo-section END -->
+        <!-- newsletters-section BEGIN -->
+        <section id="newsletters-section" class="js-section newsletters-section">
+          <div class="container newsletters-section__container">
+            <div class="row newsletters-section__row-content">
+              <div class="row__col--6 newsletters-section__col-media">
+                <div class="newsletters-section__media">
+                  <picture class="newsletters-section__picture">
+                    <source type="image/webp"
+                            srcset="images/newsletters-bg-mobile.webp, images/newsletters-bg-mobile@2x.webp 2x"
+                            media="(max-width: 767px)">
+                    <source type="image/webp"
+                            srcset="images/newsletters-bg-desktop.webp, images/newsletters-bg-desktop@2x.webp 2x"
+                            media="(min-width: 768px)">
+                    <source srcset="images/newsletters-bg-mobile.jpg, images/newsletters-bg-mobile@2x.jpg 2x"
+                            media="(max-width: 767px)">
+                    <source srcset="images/newsletters-bg-desktop.jpg, images/newsletters-bg-desktop@2x.jpg 2x"
+                            media="(min-width: 768px)">
+                    <img src="images/newsletters-bg-desktop.jpg"
+                         srcset="images/newsletters-bg-desktop@2x.jpg 2x"
+                         alt="Рассылки и уведомления"
+                         sizes="(max-width: 767px) 100vw, (min-width: 768px) 50vw">
+                  </picture>
+                </div>
+              </div>
+              <div class="row__col--4 newsletters-section__col-content">
+                <div class="newsletters-section__content">
+                  <h2 class="text-size-3 newsletters-section__title">Рассылки и&nbsp;уведомления</h2>
+                  <div class="content newsletters-section__text">
+                    <p>Будьте всегда на связи с клиентами, сегментируйте базу, управляйте спросом и анализируйте отклик</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- newsletters-section END -->
+        <div id="integrations-section" class="js-section">
+          <!-- delivery-section BEGIN -->
+          <section class="delivery-section">
+            <div class="container delivery-section__container">
+              <div class="row delivery-section__row-content">
+                <div class="row__col--8 delivery-section__col-title">
+                  <h2 class="text-size-3 delivery-section__title">Доставка и самовывоз</h2>
+                </div>
+                <div class="row__col--4 delivery-section__col-description">
+                  <div class="content delivery-section__text">
+                    <p>Организуйте внутреннюю систему доставки и&nbsp;самовывоза или подключитесь к курьерскому сервису, минуя расходы на агрегаторов</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row delivery-section__row-slider">
+                <div class="row__col--4 delivery-section__col-slide">
+                  <article class="delivery-section__card is-active">
+                    <div class="delivery-section__card-media">
+                      <picture class="delivery-section__card-picture">
+                        <source type="image/webp"
+                                srcset="images/delivery-img-1.webp, images/delivery-img-1@2x.webp 2x">
+                        <source srcset="images/delivery-img-1.jpg, images/delivery-img-1@2x.jpg 2x">
+                        <img src="images/delivery-img-1.jpg"
+                             srcset="images/delivery-img-1@2x.jpg 2x"
+                             alt="Своя доставка">
+                      </picture>
+                    </div>
+                    <div class="delivery-section__card-content">
+                      <div class="delivery-section__card-progress"></div>
+                      <div class="delivery-section__card-counter">01</div>
+                      <h3 class="text-size-4 delivery-section__card-title">Своя доставка</h3>
+                      <div class="content delivery-section__card-text">
+                        <p>Контролируйте статус заказа в приложении для курьеров</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="row__col--4 delivery-section__col-slide">
+                  <article class="delivery-section__card">
+                    <div class="delivery-section__card-media">
+                      <picture class="delivery-section__card-picture">
+                        <source type="image/webp"
+                                srcset="images/delivery-img-2.webp, images/delivery-img-2@2x.webp 2x">
+                        <source srcset="images/delivery-img-2.jpg, images/delivery-img-2@2x.jpg 2x">
+                        <img src="images/delivery-img-2.jpg"
+                             srcset="images/delivery-img-2@2x.jpg 2x"
+                             alt="Самовывоз">
+                      </picture>
+                    </div>
+                    <div class="delivery-section__card-content">
+                      <div class="delivery-section__card-progress"></div>
+                      <div class="delivery-section__card-counter">02</div>
+                      <h3 class="text-size-4 delivery-section__card-title">Самовывоз</h3>
+                      <div class="content delivery-section__card-text">
+                        <p>Организуйте собственный самовывоз или включите опцию заказа со столика</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="row__col--4 delivery-section__col-slide">
+                  <article class="delivery-section__card">
+                    <div class="delivery-section__card-media">
+                      <picture class="delivery-section__card-picture">
+                        <source type="image/webp"
+                                srcset="images/delivery-img-3.webp, images/delivery-img-3@2x.webp 2x">
+                        <source srcset="images/delivery-img-3.jpg, images/delivery-img-3@2x.jpg 2x">
+                        <img src="images/delivery-img-3.jpg"
+                             srcset="images/delivery-img-3@2x.jpg 2x"
+                             alt="Интеграции с сервисами">
+                      </picture>
+                    </div>
+                    <div class="delivery-section__card-content">
+                      <div class="delivery-section__card-progress"></div>
+                      <div class="delivery-section__card-counter">03</div>
+                      <h3 class="text-size-4 delivery-section__card-title">Интеграции с сервисами</h3>
+                      <div class="content delivery-section__card-text">
+                        <ul>
+                          <li>Получайте контакты своих клиентов</li>
+                          <li>Оптимизируйте затраты на агрегаторов доставки</li>
+                          <li>Пользуйтесь одновременно возможностями быстрой и&nbsp;удаленной доставки</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- delivery-section END -->
+          <!-- integrations-section BEGIN -->
+          <section class="integrations-section">
+            <div class="container integrations-section__container">
+              <div class="row integrations-section__row-content">
+                <div class="row__col--4 integrations-section__col-description">
+                  <div class="content integrations-section__text">
+                    <p>Интеграции с кассами</p>
+                  </div>
+                </div>
+                <div class="row__col--7 integrations-section__col-title">
+                  <h2 class="text-size-3 integrations-section__title">Упростите работу с кассами. <span class="color-white">Мы&nbsp;возьмём на себя адаптацию системы под новые требования закона о торговле и&nbsp;безопасности</span></h2>
+                  <div class="content integrations-section__description">
+                    <p>Работаем с кассовыми<br>системами типов:</p>
+                  </div>
+                  <ul class="integrations-section__list-method">
+                    <li>
+                      <img src="images/integrations-logo-2.svg" alt="Интеграции с кассами Frontol 6">
+                    </li>
+                    <li>
+                      <img src="images/integrations-logo-2.svg" alt="Интеграции с кассами 1С-Битрикс">
+                    </li>
+                    <li>
+                      <img src="images/integrations-logo-3.png" alt="Интеграции с кассами IIKO">
+                    </li>
+                    <li>
+                      <img src="images/integrations-logo-4.svg" alt="Интеграции с кассами r_keeper">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row integrations-section__row-media">
+                <div class="row__col--8 integrations-section__col-media">
+                  <div class="integrations-section__media">
+                    <picture class="integrations-section__picture integrations-section__picture--1">
+                      <source type="image/webp"
+                              srcset="images/integrations-img-1-mobile.webp, images/integrations-img-1-mobile@2x.webp 2x"
+                              media="(max-width: 767px)">
+                      <source type="image/webp"
+                              srcset="images/integrations-img-1-desktop.webp, images/integrations-img-1-desktop@2x.webp 2x"
+                              media="(min-width: 768px)">
+                      <source srcset="images/integrations-img-1-mobile.jpg, images/integrations-img-1-mobile@2x.jpg 2x"
+                              media="(max-width: 767px)">
+                      <source srcset="images/integrations-img-1-desktop.jpg, images/integrations-img-1-desktop@2x.jpg 2x"
+                              media="(min-width: 768px)">
+                      <img src="images/integrations-img-1-desktop.jpg"
+                           srcset="images/integrations-img-1-desktop@2x.jpg 2x"
+                           alt="Интеграции с кассами"
+                           sizes="(max-width: 767px) 100vw, (min-width: 768px) 50vw">
+                    </picture>
+                    <picture class="integrations-section__picture integrations-section__picture--2">
+                      <source type="image/webp"
+                              srcset="images/integrations-img-2.webp, images/integrations-img-2@2x.webp 2x">
+                      <source srcset="images/integrations-img-2.jpg, images/integrations-img-2@2x.jpg 2x">
+                      <img src="images/integrations-img-2.jpg"
+                           srcset="images/integrations-img-2@2x.jpg 2x"
+                           alt="Работаем с кассовыми системами разных типов">
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- integrations-section END -->
+        </div>
+        <!-- admin-panel-section BEGIN -->
+        <section id="admin-panel-section" class="js-section admin-panel-section">
+          <div class="container admin-panel-section__container">
+            <h2 class="text-size-1 admin-panel-section__title">Админ-панель.<br><span class="color-gray">Всё под контролем в&nbsp;одном месте</span></h2>
+            <div class="content admin-panel-section__text">
+              <p>Управляйте продажами и цифровыми процессамм вашего&nbsp;бизнеса</p>
+            </div>
+          </div>
+          <div class="admin-panel-section__slider" style="--time-scroll: 56s">
+            <div class="admin-panel-section__slider-inner">
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-1.webp, images/admin-panel-slider-img-1@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-1.jpg, images/admin-panel-slider-img-1@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-1.jpg"
+                     srcset="images/admin-panel-slider-img-1@2x.jpg 2x"
+                     alt="admin-panel img 1">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-2.webp, images/admin-panel-slider-img-2@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-2.jpg, images/admin-panel-slider-img-2@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-2.jpg"
+                     srcset="images/admin-panel-slider-img-2@2x.jpg 2x"
+                     alt="admin-panel img 2">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-3.webp, images/admin-panel-slider-img-3@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-3.jpg, images/admin-panel-slider-img-3@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-3.jpg"
+                     srcset="images/admin-panel-slider-img-3@2x.jpg 2x"
+                     alt="admin-panel img 3">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-4.webp, images/admin-panel-slider-img-4@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-4.jpg, images/admin-panel-slider-img-4@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-4.jpg"
+                     srcset="images/admin-panel-slider-img-4@2x.jpg 2x"
+                     alt="admin-panel img 4">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-5.webp, images/admin-panel-slider-img-5@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-5.jpg, images/admin-panel-slider-img-5@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-5.jpg"
+                     srcset="images/admin-panel-slider-img-5@2x.jpg 2x"
+                     alt="admin-panel img 5">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-6.webp, images/admin-panel-slider-img-6@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-6.jpg, images/admin-panel-slider-img-6@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-6.jpg"
+                     srcset="images/admin-panel-slider-img-6@2x.jpg 2x"
+                     alt="admin-panel img 6">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-7.webp, images/admin-panel-slider-img-7@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-7.jpg, images/admin-panel-slider-img-7@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-7.jpg"
+                     srcset="images/admin-panel-slider-img-7@2x.jpg 2x"
+                     alt="admin-panel img 7">
+              </picture>
+            </div>
+            <div class="admin-panel-section__slider-inner">
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-1.webp, images/admin-panel-slider-img-1@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-1.jpg, images/admin-panel-slider-img-1@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-1.jpg"
+                     srcset="images/admin-panel-slider-img-1@2x.jpg 2x"
+                     alt="admin-panel img 1">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-2.webp, images/admin-panel-slider-img-2@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-2.jpg, images/admin-panel-slider-img-2@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-2.jpg"
+                     srcset="images/admin-panel-slider-img-2@2x.jpg 2x"
+                     alt="admin-panel img 2">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-3.webp, images/admin-panel-slider-img-3@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-3.jpg, images/admin-panel-slider-img-3@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-3.jpg"
+                     srcset="images/admin-panel-slider-img-3@2x.jpg 2x"
+                     alt="admin-panel img 3">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-4.webp, images/admin-panel-slider-img-4@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-4.jpg, images/admin-panel-slider-img-4@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-4.jpg"
+                     srcset="images/admin-panel-slider-img-4@2x.jpg 2x"
+                     alt="admin-panel img 4">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-5.webp, images/admin-panel-slider-img-5@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-5.jpg, images/admin-panel-slider-img-5@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-5.jpg"
+                     srcset="images/admin-panel-slider-img-5@2x.jpg 2x"
+                     alt="admin-panel img 5">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-6.webp, images/admin-panel-slider-img-6@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-6.jpg, images/admin-panel-slider-img-6@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-6.jpg"
+                     srcset="images/admin-panel-slider-img-6@2x.jpg 2x"
+                     alt="admin-panel img 6">
+              </picture>
+              <picture class="admin-panel-section__slider-slide">
+                <source type="image/webp"
+                        srcset="images/admin-panel-slider-img-7.webp, images/admin-panel-slider-img-7@2x.webp 2x">
+                <source srcset="images/admin-panel-slider-img-7.jpg, images/admin-panel-slider-img-7@2x.jpg 2x">
+                <img src="images/admin-panel-slider-img-7.jpg"
+                     srcset="images/admin-panel-slider-img-7@2x.jpg 2x"
+                     alt="admin-panel img 7">
+              </picture>
+            </div>
+          </div>
+        </section>
+        <!-- admin-panel-section END -->
+        <!-- clients-section BEGIN -->
+        <section class="clients-section">
+          <div class="container clients-section__container">
+            <div class="row clients-section__row">
+              <div class="row__col--8 clients-section__col-title">
+                <h2 class="text-size-2 clients-section__title">Нам доверяют</h2>
+              </div>
+              <div class="row__col--4 clients-section__col-text">
+                <div class="content clients-section__text">
+                  <p>На нашем счету работа с крупными клиентами, каждого&nbsp;из которых мы сделали сильнее и технологичнее </p>
+                </div>
+              </div>
+            </div>
+            <div class="clients-section__list">
+              <div class="clients-section__list-col">
+                <picture class="clients-section__list-item">
+                  <source type="image/webp"
+                          srcset="images/clients-section-logo-1.webp, images/clients-section-logo-1@2x.webp 2x">
+                  <source srcset="images/clients-section-logo-1.png, images/clients-section-logo-1@2x.png 2x">
+                  <img src="images/clients-section-logo-1.png"
+                       srcset="images/clients-section-logo-1@2x.png 2x"
+                       alt="Аэрофлот российские авиалинии">
+                </picture>
+              </div>
+              <div class="clients-section__list-col">
+                <picture class="clients-section__list-item">
+                  <source type="image/webp"
+                          srcset="images/clients-section-logo-2.webp, images/clients-section-logo-2@2x.webp 2x">
+                  <source srcset="images/clients-section-logo-2.png, images/clients-section-logo-2@2x.png 2x">
+                  <img src="images/clients-section-logo-2.png"
+                       srcset="images/clients-section-logo-2@2x.png 2x"
+                       alt="Цех 85">
+                </picture>
+              </div>
+              <div class="clients-section__list-col">
+                <picture class="clients-section__list-item">
+                  <source type="image/webp"
+                          srcset="images/clients-section-logo-3.webp, images/clients-section-logo-3@2x.webp 2x">
+                  <source srcset="images/clients-section-logo-3.png, images/clients-section-logo-3@2x.png 2x">
+                  <img src="images/clients-section-logo-3.png"
+                       srcset="images/clients-section-logo-3@2x.png 2x"
+                       alt="Followww the rabbits">
+                </picture>
+              </div>
+              <div class="clients-section__list-col">
+                <picture class="clients-section__list-item">
+                  <source type="image/webp"
+                          srcset="images/clients-section-logo-4.webp, images/clients-section-logo-4@2x.webp 2x">
+                  <source srcset="images/clients-section-logo-4.png, images/clients-section-logo-4@2x.png 2x">
+                  <img src="images/clients-section-logo-4.png"
+                       srcset="images/clients-section-logo-4@2x.png 2x"
+                       alt="585 ломбард">
+                </picture>
+              </div>
+              <div class="clients-section__list-col">
+                <picture class="clients-section__list-item">
+                  <source type="image/webp"
+                          srcset="images/clients-section-logo-5.webp, images/clients-section-logo-5@2x.webp 2x">
+                  <source srcset="images/clients-section-logo-5.png, images/clients-section-logo-5@2x.png 2x">
+                  <img src="images/clients-section-logo-5.png"
+                       srcset="images/clients-section-logo-5@2x.png 2x"
+                       alt="Che group">
+                </picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- clients-section END -->
+        <!-- cta-section BEGIN -->
+        <section class="cta-section">
+          <div class="container cta-section__container">
+            <div class="row cta-section__row">
+              <div class="row__col--3 cta-section__col-content">
+                <div class="cta-section__content">
+                  <h2 class="text-size-6 cta-section__title">Расскажем, как заработать больше и рассчитаем стоимость подписки</h2>
+                  <form action="#" class="cta-section__form">
+                    <div class="cta-section__form-line">
+                      <div class="u-control">
+                        <input type="text" name="cta_name" class="u-input u-input--theme-gray u-input--size-md u-input--status-error u-control__input" placeholder="Имя" value="Lv%">
+                        <p class="u-error u-control__error">Имя не должно содержать латинские символы</p>
+                      </div>
+                    </div>
+                    <div class="cta-section__form-line">
+                      <div class="u-control">
+                        <input type="text" name="cta_phone" class="u-input u-input--theme-gray u-input--size-md u-control__input" placeholder="Телефон">
+                      </div>
+                    </div>
+                    <div class="cta-section__form-line">
+                      <div class="u-control">
+                        <input type="text" name="cta_brand" class="u-input u-input--theme-gray u-input--size-md u-control__input" placeholder="Ваш бренд">
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn--theme-white btn--size-mdd cta-section__form-btn">
+                      <span class="btn__inner">
+                        <span class="btn__title">Отправить</span>
+                      </span>
+                    </button>
+                    <div class="content cta-section__copyright">
+                      <p>Нажимая на кнопку «Отправить», вы&nbsp;принимаете нашу <a href="#">политику конфиденциальности</a></p>
+                    </div>
+                  </form>
+                  <div class="cta-section__contacts">
+                    <p class="cta-section__contacts-title">Или свяжитесь с нами</p>
+                    <ul class="cta-section__contacts-list">
+                      <li class="info-line cta-section__contacts-list-item">
+                        <div class="info-line__inner">
+                          <div class="info-line__picture">
+                            <svg class="u-icon info-line__icon">
+                              <use xlink:href="images/icons/icons.svg#telegram"></use>
+                            </svg>
+                          </div>
+                          <div class="info-line__content">
+                            <a href="@outsorcebusiness" class="info-line__link">@outsorcebusiness</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="info-line cta-section__contacts-list-item">
+                        <div class="info-line__inner">
+                          <div class="info-line__picture">
+                            <svg class="u-icon info-line__icon">
+                              <use xlink:href="images/icons/icons.svg#phone"></use>
+                            </svg>
+                          </div>
+                          <div class="info-line__content">
+                            <a href="tel:+78128871165" class="info-line__link">+7 (812) 887-11-65</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row__col--8 cta-section__col-media">
+                <div class="cta-section__media">
+                  <picture class="cta-section__picture">
+                    <source type="image/webp"
+                            srcset="images/cta-section-img.webp, images/cta-section-img@2x.webp 2x">
+                    <source srcset="images/cta-section-img.png, images/cta-section-img@2x.png 2x">
+                    <img src="images/cta-section-img.png"
+                         srcset="images/cta-section-img@2x.png 2x"
+                         alt="Расскажем, как заработать больше и рассчитаем стоимость подписки">
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <footer class="cta-section__footer">
+              <nav class="cta-section__footer-list">
+                <ul>
+                  <li>© 2023 Outsorce</li>
+                  <li>
+                    <a href="#">Политика конфеденциальности</a>
+                  </li>
+                  <li>
+                    <a href="#">Пользовательское соглашение</a>
+                  </li>
+                </ul>
+              </nav>
+            </footer>
+          </div>
+        </section>
+        <!-- cta-section END -->
+      </main>
+      <!-- box-cookie BEGIN -->
+      <!--@@include('html/box-cookie.html', {
+        'el': 'site__box-cookie'
+      })-->
+      <!-- box-cookie END -->
+    </div>
+
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    @@include('html/script.html')
+  </body>
+</html>

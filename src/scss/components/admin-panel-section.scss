@@ -1,0 +1,64 @@
+.admin-panel-section {
+  background: $grayColor;
+  padding: 208rem 0 40rem;
+  &__container {
+  }
+  &__title {
+    max-width: 800rem;
+    margin: 0 0 40rem;
+  }
+  &__text {
+    max-width: 420rem;
+    margin: 0 0 128rem;
+  }
+  &__slider {
+    display: flex;
+    overflow: hidden;
+    &-inner {
+      font-size: 0;
+      white-space: nowrap;
+      user-select: none;
+      &:nth-child(1) {
+        animation: scrollImgInfinite var(--time-scroll) linear infinite;
+        animation-delay: calc(var(--time-scroll) * -1);
+      }
+      &:nth-child(2) {
+        animation: scrollImgInfinite2 var(--time-scroll) linear infinite;
+        animation-delay: calc(var(--time-scroll) / -2);
+      }
+    }
+    &-slide {
+      max-width: calc(100% - 100rem);
+      margin: 0 calc(var(--gap) * 2) 0 0;
+      display: inline-block;
+      vertical-align: bottom;
+      &:nth-child(1) {
+        width: 480rem;
+      }
+      &:nth-child(2) {
+        width: 288rem;
+      }
+      &:nth-child(3) {
+        width: 427rem;
+      }
+      &:nth-child(4) {
+        width: 328rem;
+      }
+      &:nth-child(5) {
+        width: 241rem;
+      }
+      &:nth-child(6) {
+        width: 241rem;
+      }
+      &:nth-child(7) {
+        width: 328rem;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: $radiusMd;
+      }
+    }
+  }
+}

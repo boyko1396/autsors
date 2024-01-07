@@ -1,0 +1,74 @@
+$siteResolution: .069vw;
+// $siteResolution: 1px;
+$mainFont: 'Euclid Square';
+$mainWeight: 400;
+$lineHeightLarge: 1.5;
+$lineHeightMedium: 1.2;
+$lineHeightTitle: 1;
+$lineHeightDefault: $lineHeightLarge;
+
+$containerWidth: 1440rem;
+
+$radiusSm: 8rem;
+$radiusMd: 12rem;
+$radiusLg: 20rem;
+
+$whiteColor: #ffffff;
+$blackColor: #0B0B0B;
+$greenColor: #35CA37;
+$greenDarkColor: #14B216;
+$lightGreenColor: #F7F7F3;
+$smallGrayColor: #DDDDDD;
+$grayColor: #EDEDED;
+$lightGrayColor: #CDCDCD;
+$lighterGrayColor: #F2F2F2;
+$mediumGrayColor: #636363;
+$charcoalColor: #2B2B2B;
+$orangeColor: #FF9800;
+$redColor: #E51E1E;
+$accentColor: $greenColor;
+
+$gradientDark1: linear-gradient(180deg, #2E2E2E 0%, #232323 100%);
+
+$fontFamily: $mainFont, sans-serif;
+$fontColor: $blackColor;
+$fontWeight: $mainWeight;
+
+$transition: all .4s 0ms;
+
+$lg: 1199px;
+$lg-mf: $lg + 1;
+
+$md: 991px;
+$md-mf: $md + 1;
+
+$sm: 767px;
+$sm-mf: $sm + 1;
+
+$xs: 576px;
+$xs-mf: $xs;
+
+$offsetCol: 8.33333333333%;
+
+:root {
+  --fs-default: 16rem;
+  --fs-1: 80rem;
+  --fs-2: 56rem;
+  --fs-3: 52rem;
+  --fs-4: 32rem;
+  --fs-5: 24rem;
+  --fs-6: 20rem;
+  --fs-7: 18rem;
+  --fs-9: 14rem;
+  --fs-10: 12rem;
+  --fs-11: 10rem;
+  --fs-12: 40rem;
+  --offset: 15rem;
+  --offset-: 15rem;
+  --gap: 10rem;
+  --gap-: -10rem;
+  --gap-fluid: 40rem;
+  --gap-fluid-: -40rem;
+  @media (max-width: $md) {
+  }
+}
